@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/dime-house/twc-go-sdk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_S3APIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_S3APIService(t *testing.T) {
 
 	t.Run("Test S3APIService AddStorageSubdomainCertificate", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		httpRes, err := apiClient.S3API.AddStorageSubdomainCertificate(context.Background()).Execute()
 
@@ -35,7 +35,7 @@ func Test_openapi_S3APIService(t *testing.T) {
 
 	t.Run("Test S3APIService AddStorageSubdomains", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var bucketId int32
 
@@ -49,7 +49,7 @@ func Test_openapi_S3APIService(t *testing.T) {
 
 	t.Run("Test S3APIService CopyStorageFile", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var bucketId int32
 
@@ -62,7 +62,7 @@ func Test_openapi_S3APIService(t *testing.T) {
 
 	t.Run("Test S3APIService CreateFolderInStorage", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var bucketId int32
 
@@ -75,7 +75,7 @@ func Test_openapi_S3APIService(t *testing.T) {
 
 	t.Run("Test S3APIService CreateStorage", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.S3API.CreateStorage(context.Background()).Execute()
 
@@ -87,7 +87,7 @@ func Test_openapi_S3APIService(t *testing.T) {
 
 	t.Run("Test S3APIService DeleteStorage", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var bucketId int32
 
@@ -101,7 +101,7 @@ func Test_openapi_S3APIService(t *testing.T) {
 
 	t.Run("Test S3APIService DeleteStorageFile", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var bucketId int32
 
@@ -114,7 +114,7 @@ func Test_openapi_S3APIService(t *testing.T) {
 
 	t.Run("Test S3APIService DeleteStorageSubdomains", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var bucketId int32
 
@@ -128,7 +128,7 @@ func Test_openapi_S3APIService(t *testing.T) {
 
 	t.Run("Test S3APIService GetStorageFilesList", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var bucketId int32
 
@@ -142,7 +142,7 @@ func Test_openapi_S3APIService(t *testing.T) {
 
 	t.Run("Test S3APIService GetStorageSubdomains", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var bucketId int32
 
@@ -156,7 +156,7 @@ func Test_openapi_S3APIService(t *testing.T) {
 
 	t.Run("Test S3APIService GetStorageTransferStatus", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var bucketId int32
 
@@ -170,7 +170,7 @@ func Test_openapi_S3APIService(t *testing.T) {
 
 	t.Run("Test S3APIService GetStorageUsers", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.S3API.GetStorageUsers(context.Background()).Execute()
 
@@ -182,7 +182,7 @@ func Test_openapi_S3APIService(t *testing.T) {
 
 	t.Run("Test S3APIService GetStorages", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.S3API.GetStorages(context.Background()).Execute()
 
@@ -194,7 +194,7 @@ func Test_openapi_S3APIService(t *testing.T) {
 
 	t.Run("Test S3APIService GetStoragesPresets", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.S3API.GetStoragesPresets(context.Background()).Execute()
 
@@ -206,7 +206,7 @@ func Test_openapi_S3APIService(t *testing.T) {
 
 	t.Run("Test S3APIService RenameStorageFile", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var bucketId int32
 
@@ -219,7 +219,7 @@ func Test_openapi_S3APIService(t *testing.T) {
 
 	t.Run("Test S3APIService TransferStorage", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		httpRes, err := apiClient.S3API.TransferStorage(context.Background()).Execute()
 
@@ -230,7 +230,7 @@ func Test_openapi_S3APIService(t *testing.T) {
 
 	t.Run("Test S3APIService UpdateStorage", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var bucketId int32
 
@@ -244,7 +244,7 @@ func Test_openapi_S3APIService(t *testing.T) {
 
 	t.Run("Test S3APIService UpdateStorageUser", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var userId int32
 
@@ -258,7 +258,7 @@ func Test_openapi_S3APIService(t *testing.T) {
 
 	t.Run("Test S3APIService UploadFileToStorage", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var bucketId int32
 

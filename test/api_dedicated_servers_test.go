@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/dime-house/twc-go-sdk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_DedicatedServersAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_DedicatedServersAPIService(t *testing.T) {
 
 	t.Run("Test DedicatedServersAPIService CreateDedicatedServer", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.DedicatedServersAPI.CreateDedicatedServer(context.Background()).Execute()
 
@@ -36,7 +36,7 @@ func Test_openapi_DedicatedServersAPIService(t *testing.T) {
 
 	t.Run("Test DedicatedServersAPIService DeleteDedicatedServer", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var dedicatedId int32
 
@@ -49,7 +49,7 @@ func Test_openapi_DedicatedServersAPIService(t *testing.T) {
 
 	t.Run("Test DedicatedServersAPIService GetDedicatedServer", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var dedicatedId int32
 
@@ -63,7 +63,7 @@ func Test_openapi_DedicatedServersAPIService(t *testing.T) {
 
 	t.Run("Test DedicatedServersAPIService GetDedicatedServerPresetAdditionalServices", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var presetId int32
 
@@ -77,7 +77,7 @@ func Test_openapi_DedicatedServersAPIService(t *testing.T) {
 
 	t.Run("Test DedicatedServersAPIService GetDedicatedServers", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.DedicatedServersAPI.GetDedicatedServers(context.Background()).Execute()
 
@@ -89,7 +89,7 @@ func Test_openapi_DedicatedServersAPIService(t *testing.T) {
 
 	t.Run("Test DedicatedServersAPIService GetDedicatedServersPresets", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.DedicatedServersAPI.GetDedicatedServersPresets(context.Background()).Execute()
 
@@ -101,7 +101,7 @@ func Test_openapi_DedicatedServersAPIService(t *testing.T) {
 
 	t.Run("Test DedicatedServersAPIService UpdateDedicatedServer", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var dedicatedId int32
 

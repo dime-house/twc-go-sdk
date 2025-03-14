@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/dime-house/twc-go-sdk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_ServersAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_ServersAPIService(t *testing.T) {
 
 	t.Run("Test ServersAPIService AddServerIP", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var serverId int32
 
@@ -38,7 +38,7 @@ func Test_openapi_ServersAPIService(t *testing.T) {
 
 	t.Run("Test ServersAPIService CloneServer", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var serverId int32
 
@@ -52,7 +52,7 @@ func Test_openapi_ServersAPIService(t *testing.T) {
 
 	t.Run("Test ServersAPIService CreateServer", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ServersAPI.CreateServer(context.Background()).Execute()
 
@@ -64,7 +64,7 @@ func Test_openapi_ServersAPIService(t *testing.T) {
 
 	t.Run("Test ServersAPIService CreateServerDisk", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var serverId int32
 
@@ -78,7 +78,7 @@ func Test_openapi_ServersAPIService(t *testing.T) {
 
 	t.Run("Test ServersAPIService CreateServerDiskBackup", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var serverId int32
 		var diskId int32
@@ -93,7 +93,7 @@ func Test_openapi_ServersAPIService(t *testing.T) {
 
 	t.Run("Test ServersAPIService DeleteServer", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var serverId int32
 
@@ -107,7 +107,7 @@ func Test_openapi_ServersAPIService(t *testing.T) {
 
 	t.Run("Test ServersAPIService DeleteServerDisk", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var serverId int32
 		var diskId int32
@@ -121,7 +121,7 @@ func Test_openapi_ServersAPIService(t *testing.T) {
 
 	t.Run("Test ServersAPIService DeleteServerDiskBackup", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var serverId int32
 		var diskId int32
@@ -136,7 +136,7 @@ func Test_openapi_ServersAPIService(t *testing.T) {
 
 	t.Run("Test ServersAPIService DeleteServerIP", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var serverId int32
 
@@ -149,7 +149,7 @@ func Test_openapi_ServersAPIService(t *testing.T) {
 
 	t.Run("Test ServersAPIService GetConfigurators", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ServersAPI.GetConfigurators(context.Background()).Execute()
 
@@ -161,7 +161,7 @@ func Test_openapi_ServersAPIService(t *testing.T) {
 
 	t.Run("Test ServersAPIService GetOsList", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ServersAPI.GetOsList(context.Background()).Execute()
 
@@ -173,7 +173,7 @@ func Test_openapi_ServersAPIService(t *testing.T) {
 
 	t.Run("Test ServersAPIService GetServer", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var serverId int32
 
@@ -187,7 +187,7 @@ func Test_openapi_ServersAPIService(t *testing.T) {
 
 	t.Run("Test ServersAPIService GetServerDisk", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var serverId int32
 		var diskId int32
@@ -202,7 +202,7 @@ func Test_openapi_ServersAPIService(t *testing.T) {
 
 	t.Run("Test ServersAPIService GetServerDiskAutoBackupSettings", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var serverId int32
 		var diskId int32
@@ -217,7 +217,7 @@ func Test_openapi_ServersAPIService(t *testing.T) {
 
 	t.Run("Test ServersAPIService GetServerDiskBackup", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var serverId int32
 		var diskId int32
@@ -233,7 +233,7 @@ func Test_openapi_ServersAPIService(t *testing.T) {
 
 	t.Run("Test ServersAPIService GetServerDiskBackups", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var serverId int32
 		var diskId int32
@@ -248,7 +248,7 @@ func Test_openapi_ServersAPIService(t *testing.T) {
 
 	t.Run("Test ServersAPIService GetServerDisks", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var serverId int32
 
@@ -262,7 +262,7 @@ func Test_openapi_ServersAPIService(t *testing.T) {
 
 	t.Run("Test ServersAPIService GetServerIPs", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var serverId int32
 
@@ -276,7 +276,7 @@ func Test_openapi_ServersAPIService(t *testing.T) {
 
 	t.Run("Test ServersAPIService GetServerLogs", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var serverId int32
 
@@ -290,7 +290,7 @@ func Test_openapi_ServersAPIService(t *testing.T) {
 
 	t.Run("Test ServersAPIService GetServerStatistics", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var serverId int32
 
@@ -304,7 +304,7 @@ func Test_openapi_ServersAPIService(t *testing.T) {
 
 	t.Run("Test ServersAPIService GetServers", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ServersAPI.GetServers(context.Background()).Execute()
 
@@ -316,7 +316,7 @@ func Test_openapi_ServersAPIService(t *testing.T) {
 
 	t.Run("Test ServersAPIService GetServersPresets", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ServersAPI.GetServersPresets(context.Background()).Execute()
 
@@ -328,7 +328,7 @@ func Test_openapi_ServersAPIService(t *testing.T) {
 
 	t.Run("Test ServersAPIService GetSoftware", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ServersAPI.GetSoftware(context.Background()).Execute()
 
@@ -340,7 +340,7 @@ func Test_openapi_ServersAPIService(t *testing.T) {
 
 	t.Run("Test ServersAPIService HardShutdownServer", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var serverId int32
 
@@ -353,7 +353,7 @@ func Test_openapi_ServersAPIService(t *testing.T) {
 
 	t.Run("Test ServersAPIService ImageUnmountAndServerReload", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var serverId int32
 
@@ -366,7 +366,7 @@ func Test_openapi_ServersAPIService(t *testing.T) {
 
 	t.Run("Test ServersAPIService PerformActionOnBackup", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var serverId int32
 		var diskId int32
@@ -381,7 +381,7 @@ func Test_openapi_ServersAPIService(t *testing.T) {
 
 	t.Run("Test ServersAPIService PerformActionOnServer", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var serverId int32
 
@@ -394,7 +394,7 @@ func Test_openapi_ServersAPIService(t *testing.T) {
 
 	t.Run("Test ServersAPIService RebootServer", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var serverId int32
 
@@ -407,7 +407,7 @@ func Test_openapi_ServersAPIService(t *testing.T) {
 
 	t.Run("Test ServersAPIService ResetServerPassword", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var serverId int32
 
@@ -420,7 +420,7 @@ func Test_openapi_ServersAPIService(t *testing.T) {
 
 	t.Run("Test ServersAPIService ShutdownServer", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var serverId int32
 
@@ -433,7 +433,7 @@ func Test_openapi_ServersAPIService(t *testing.T) {
 
 	t.Run("Test ServersAPIService StartServer", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var serverId int32
 
@@ -446,7 +446,7 @@ func Test_openapi_ServersAPIService(t *testing.T) {
 
 	t.Run("Test ServersAPIService UpdateServer", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var serverId int32
 
@@ -460,7 +460,7 @@ func Test_openapi_ServersAPIService(t *testing.T) {
 
 	t.Run("Test ServersAPIService UpdateServerDisk", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var serverId int32
 		var diskId int32
@@ -475,7 +475,7 @@ func Test_openapi_ServersAPIService(t *testing.T) {
 
 	t.Run("Test ServersAPIService UpdateServerDiskAutoBackupSettings", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var serverId int32
 		var diskId int32
@@ -490,7 +490,7 @@ func Test_openapi_ServersAPIService(t *testing.T) {
 
 	t.Run("Test ServersAPIService UpdateServerDiskBackup", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var serverId int32
 		var diskId int32
@@ -506,7 +506,7 @@ func Test_openapi_ServersAPIService(t *testing.T) {
 
 	t.Run("Test ServersAPIService UpdateServerIP", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var serverId int32
 
@@ -520,7 +520,7 @@ func Test_openapi_ServersAPIService(t *testing.T) {
 
 	t.Run("Test ServersAPIService UpdateServerNAT", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var serverId int32
 
@@ -533,7 +533,7 @@ func Test_openapi_ServersAPIService(t *testing.T) {
 
 	t.Run("Test ServersAPIService UpdateServerOSBootMode", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var serverId int32
 

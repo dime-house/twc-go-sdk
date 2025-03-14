@@ -11,10 +11,10 @@ package openapi
 
 import (
 	"context"
+	openapiclient "github.com/dime-house/twc-go-sdk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_NetworkDrivesAPIService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_openapi_NetworkDrivesAPIService(t *testing.T) {
 
 	t.Run("Test NetworkDrivesAPIService CreateNetworkDrive", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.NetworkDrivesAPI.CreateNetworkDrive(context.Background()).Execute()
 
@@ -36,7 +36,7 @@ func Test_openapi_NetworkDrivesAPIService(t *testing.T) {
 
 	t.Run("Test NetworkDrivesAPIService DeleteNetworkDrive", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var networkDriveId string
 
@@ -49,7 +49,7 @@ func Test_openapi_NetworkDrivesAPIService(t *testing.T) {
 
 	t.Run("Test NetworkDrivesAPIService GetNetworkDrive", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var networkDriveId string
 
@@ -63,7 +63,7 @@ func Test_openapi_NetworkDrivesAPIService(t *testing.T) {
 
 	t.Run("Test NetworkDrivesAPIService GetNetworkDrives", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.NetworkDrivesAPI.GetNetworkDrives(context.Background()).Execute()
 
@@ -75,7 +75,7 @@ func Test_openapi_NetworkDrivesAPIService(t *testing.T) {
 
 	t.Run("Test NetworkDrivesAPIService GetNetworkDrivesAvailableResources", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.NetworkDrivesAPI.GetNetworkDrivesAvailableResources(context.Background()).Execute()
 
@@ -87,7 +87,7 @@ func Test_openapi_NetworkDrivesAPIService(t *testing.T) {
 
 	t.Run("Test NetworkDrivesAPIService GetNetworkDrivesPresets", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.NetworkDrivesAPI.GetNetworkDrivesPresets(context.Background()).Execute()
 
@@ -99,7 +99,7 @@ func Test_openapi_NetworkDrivesAPIService(t *testing.T) {
 
 	t.Run("Test NetworkDrivesAPIService MountNetworkDrive", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var networkDriveId string
 
@@ -112,7 +112,7 @@ func Test_openapi_NetworkDrivesAPIService(t *testing.T) {
 
 	t.Run("Test NetworkDrivesAPIService UnmountNetworkDrive", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var networkDriveId string
 
@@ -125,7 +125,7 @@ func Test_openapi_NetworkDrivesAPIService(t *testing.T) {
 
 	t.Run("Test NetworkDrivesAPIService UpdateNetworkDrive", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var networkDriveId string
 
